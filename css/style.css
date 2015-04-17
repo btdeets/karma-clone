@@ -1,6 +1,76 @@
+/* Global Settings */
 body {
 	background-color: LightGray;
 }
+section,
 div {
 	border: 1px solid Chocolate;
 }
+
+
+/* Navigation Header */
+
+.top-nav {
+	background-color: #fff;
+}
+
+.content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+img {
+	margin: 14px;
+}
+
+.links {
+	float: right;
+	margin-top: 1.6rem;
+	font-family: Roboto, sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1em;
+	list-style: none;
+}
+
+.links li {
+	display: inline-block;
+	margin: auto .8em;
+	color: #838994;
+}
+
+.links a {
+	text-decoration: none;
+	color: inherit;
+}
+
+li.active {
+	color: #555;
+	font-weight: 500;
+}
+.links a:hover {
+	color: #333;
+}
+
+
+
+
+/* Media Queries */
+
+/*@media (max-width: 993px) {
+	.container {
+		width: 90%;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 95%;
+	}
+}
+
+*/
+
+
+
